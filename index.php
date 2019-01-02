@@ -11,6 +11,11 @@
 
 <?PHP
 
+    /*
+     * Sorry, this is a spaghetty code for testing only.
+     * Please check my other projects for MVC codes or ask my CV.
+     */
+
 	session_start();
 
 	$Passed = 0;
