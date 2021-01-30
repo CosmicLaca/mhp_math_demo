@@ -12,6 +12,8 @@
 <?PHP
 
     /*
+     * Monty  Hall Problem - math demo.
+     *
      * Sorry, this is a spaghetty code for testing only.
      * Please check my other projects for MVC codes or ask my CV.
      */
@@ -42,17 +44,17 @@
 		echo '<table border=1 cellpadding=2 cellspacing=0>
 		<tr>
 		<th>#</th>
-		<th>ajtó 1</th>
-		<th>ajtó 2</th>
-		<th>ajtó 3</th>
-		<th>Random választott</th>
-		<th>Kinyitották</th>
-		<th>Ha vált</th>
-		<th>Ha nem vált</th>
-		<th>Ha random vált</th>
-		<th>Fix 1 / Kinyit</th>
-		<th>Fix 2 / Kinyit</th>
-		<th>Fix 3 / Kinyit</th>
+		<th>Door 1</th>
+		<th>Door 2</th>
+		<th>Door 3</th>
+		<th>Random selected</th>
+		<th>Open</th>
+		<th>If change</th>
+		<th>If not change</th>
+		<th>If random change</th>
+		<th>1st / open</th>
+		<th>2nd / open</th>
+		<th>3rd / open</th>
 		</tr>';
 
 
@@ -285,7 +287,6 @@
 	}
 
 ?>
-
 
 <form name="form1" method="post" action="index.php">
 	Események száma (10...500):<br>
